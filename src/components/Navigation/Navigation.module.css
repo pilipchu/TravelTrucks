@@ -1,7 +1,36 @@
-.nav{
+.header{
    padding-top: 24px;
    padding-bottom: 24px;
-   margin-left: auto;
-   margin-right: auto;
+   padding-left: 64px;
+   padding-right: 64px;
+   width: 1440px;
+   display: flex;
+}
+
+.nav{
    margin-top: 0;
 }
+
+.list{
+   display: flex;
+   align-items: center;
+   margin-top: 0;
+   margin-bottom: 0;
+   list-style-type: none;
+   padding: 0;
+   gap: 32px;
+}
+
+.icon{
+   margin-left: 0px;
+   margin-right: 450px;
+}
+
+.link{
+   color: #101828;
+}
+
+.active{
+   color: #D84343;
+}
+

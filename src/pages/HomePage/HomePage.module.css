@@ -1,0 +1,6 @@
+.conteiner{
+   background-image: url(../../../imegas/img/Picture.png), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%);
+   height: auto;
+   background-size: cover;
+   height: 696px;
+}

@@ -8,11 +8,12 @@ const getLinkClass = ({isActive}) => {
 
 export default function Navigation() {
    return(
-      <nav className={css.nav}>
+      <header className={css.header}>
          <svg className={css.icon} width='136' height='16'>
             <use href='../../imegas/symbol.svg#icon-Logo'></use>
             </svg>
-            <ul>
+         <nav className={css.nav}>
+            <ul className={css.list}>
                <li>
                   <NavLink to= '/' className={getLinkClass}>Home</NavLink>
                </li>
@@ -21,5 +22,6 @@ export default function Navigation() {
                </li>
             </ul>
       </nav>
+      </header>
    )
 }
