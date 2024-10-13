@@ -3,6 +3,8 @@
   position: relative;
   flex-direction: column;
   align-items: flex-start;
+  margin-top: 48px;
+  margin-left: 64px;
 }
 .local {
   color: #6c717b;
